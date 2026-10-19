@@ -1,0 +1,19 @@
+# ---- 数据与产物 ----
+data/raw/
+data/parquet/
+data/warehouse/
+reports/*.png
+reports/data/
+reports/manifest.json
+logs/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db

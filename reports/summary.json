@@ -1,0 +1,294 @@
+{
+  "kpi": {
+    "orders_total": 99441.0,
+    "orders_delivered": 96476.0,
+    "orders_canceled": 625.0,
+    "customers_total": 96096.0,
+    "gmv_total": 13591643.7,
+    "aov": 136.68,
+    "avg_delivery_days": 12.5,
+    "late_rate": 0.0811,
+    "avg_review": 4.09,
+    "first_order_ts": "2016-09-04 21:15:19",
+    "last_order_ts": "2018-10-17 17:30:18",
+    "repeat_customers": 2924.0,
+    "repeat_rate": 0.0306,
+    "arpu": 142.23
+  },
+  "charts": [
+    "C:\\Users\\董文军\\WorkBuddy\\2026-10-17-21-18-27\\NEW_STAR\\reports\\01_monthly_gmv.png",
+    "C:\\Users\\董文军\\WorkBuddy\\2026-10-17-21-18-27\\NEW_STAR\\reports\\02_rfm_segments.png",
+    "C:\\Users\\董文军\\WorkBuddy\\2026-10-17-21-18-27\\NEW_STAR\\reports\\03_cohort_retention.png",
+    "C:\\Users\\董文军\\WorkBuddy\\2026-10-17-21-18-27\\NEW_STAR\\reports\\04_delivery_sla.png",
+    "C:\\Users\\董文军\\WorkBuddy\\2026-10-17-21-18-27\\NEW_STAR\\reports\\05_category_pareto.png",
+    "C:\\Users\\董文军\\WorkBuddy\\2026-10-17-21-18-27\\NEW_STAR\\reports\\06_payment_mix.png"
+  ],
+  "rfm": [
+    {
+      "segment": "重要挽留客户",
+      "customers": 34435,
+      "customer_share": 0.3603,
+      "total_gmv": 9305019.81,
+      "gmv_share": 0.6894,
+      "avg_monetary": 270.22,
+      "avg_recency_days": 307.3,
+      "avg_frequency": 1.06
+    },
+    {
+      "segment": "流失客户",
+      "customers": 40987,
+      "customer_share": 0.4289,
+      "total_gmv": 2248768.4,
+      "gmv_share": 0.1666,
+      "avg_monetary": 54.87,
+      "avg_recency_days": 360.4,
+      "avg_frequency": 1.01
+    },
+    {
+      "segment": "重要发展客户",
+      "customers": 9472,
+      "customer_share": 0.0991,
+      "total_gmv": 1313660.09,
+      "gmv_share": 0.0973,
+      "avg_monetary": 138.69,
+      "avg_recency_days": 71.9,
+      "avg_frequency": 1.03
+    },
+    {
+      "segment": "一般客户",
+      "customers": 10617,
+      "customer_share": 0.1111,
+      "total_gmv": 597064.86,
+      "gmv_share": 0.0442,
+      "avg_monetary": 56.24,
+      "avg_recency_days": 138.6,
+      "avg_frequency": 1.02
+    },
+    {
+      "segment": "重要保持客户",
+      "customers": 40,
+      "customer_share": 0.0004,
+      "total_gmv": 22847.75,
+      "gmv_share": 0.0017,
+      "avg_monetary": 571.19,
+      "avg_recency_days": 246.0,
+      "avg_frequency": 4.78
+    },
+    {
+      "segment": "重要价值客户",
+      "customers": 9,
+      "customer_share": 0.0001,
+      "total_gmv": 9047.52,
+      "gmv_share": 0.0007,
+      "avg_monetary": 1005.28,
+      "avg_recency_days": 61.7,
+      "avg_frequency": 5.78
+    }
+  ],
+  "top_categories": [
+    {
+      "category": "health_beauty",
+      "gmv": 1258681.34,
+      "gmv_share": 0.0926,
+      "avg_review": 3.96
+    },
+    {
+      "category": "watches_gifts",
+      "gmv": 1205005.68,
+      "gmv_share": 0.0887,
+      "avg_review": 4.04
+    },
+    {
+      "category": "bed_bath_table",
+      "gmv": 1036988.68,
+      "gmv_share": 0.0763,
+      "avg_review": 3.92
+    },
+    {
+      "category": "sports_leisure",
+      "gmv": 988048.97,
+      "gmv_share": 0.0727,
+      "avg_review": 4.12
+    },
+    {
+      "category": "computers_accessories",
+      "gmv": 911954.32,
+      "gmv_share": 0.0671,
+      "avg_review": 3.94
+    },
+    {
+      "category": "furniture_decor",
+      "gmv": 729762.49,
+      "gmv_share": 0.0537,
+      "avg_review": 3.79
+    },
+    {
+      "category": "cool_stuff",
+      "gmv": 635290.85,
+      "gmv_share": 0.0467,
+      "avg_review": 4.12
+    },
+    {
+      "category": "housewares",
+      "gmv": 632248.66,
+      "gmv_share": 0.0465,
+      "avg_review": 4.0
+    },
+    {
+      "category": "auto",
+      "gmv": 592720.11,
+      "gmv_share": 0.0436,
+      "avg_review": 3.98
+    },
+    {
+      "category": "garden_tools",
+      "gmv": 485256.46,
+      "gmv_share": 0.0357,
+      "avg_review": 4.08
+    }
+  ],
+  "worst_states": [
+    {
+      "state": "AL",
+      "delivered_orders": 398,
+      "avg_delivery_days": 24.5,
+      "late_rate": 0.2387,
+      "avg_review": 3.86
+    },
+    {
+      "state": "MA",
+      "delivered_orders": 714,
+      "avg_delivery_days": 21.5,
+      "late_rate": 0.1947,
+      "avg_review": 3.83
+    },
+    {
+      "state": "PI",
+      "delivered_orders": 476,
+      "avg_delivery_days": 19.4,
+      "late_rate": 0.1597,
+      "avg_review": 3.99
+    },
+    {
+      "state": "CE",
+      "delivered_orders": 1277,
+      "avg_delivery_days": 21.2,
+      "late_rate": 0.1535,
+      "avg_review": 3.94
+    },
+    {
+      "state": "SE",
+      "delivered_orders": 334,
+      "avg_delivery_days": 21.4,
+      "late_rate": 0.1527,
+      "avg_review": 3.9
+    },
+    {
+      "state": "BA",
+      "delivered_orders": 3258,
+      "avg_delivery_days": 19.3,
+      "late_rate": 0.1403,
+      "avg_review": 3.93
+    },
+    {
+      "state": "RJ",
+      "delivered_orders": 12351,
+      "avg_delivery_days": 15.2,
+      "late_rate": 0.1347,
+      "avg_review": 3.97
+    },
+    {
+      "state": "TO",
+      "delivered_orders": 274,
+      "avg_delivery_days": 17.6,
+      "late_rate": 0.1277,
+      "avg_review": 4.16
+    }
+  ],
+  "monthly": [
+    {
+      "year_month": "2018-08",
+      "orders": 6512,
+      "customers": 6460,
+      "gmv": 854686.33,
+      "aov": 131.25,
+      "avg_delivery_days": 7.7,
+      "late_rate": 0.1039,
+      "avg_review": 4.26,
+      "cancel_rate": 0.0129,
+      "prev_gmv": 895507.22,
+      "gmv_mom": -0.0456,
+      "gmv_cumulative": 13591498.7
+    },
+    {
+      "year_month": "2018-07",
+      "orders": 6292,
+      "customers": 6230,
+      "gmv": 895507.22,
+      "aov": 142.32,
+      "avg_delivery_days": 8.9,
+      "late_rate": 0.0448,
+      "avg_review": 4.27,
+      "cancel_rate": 0.0065,
+      "prev_gmv": 865124.31,
+      "gmv_mom": 0.0351,
+      "gmv_cumulative": 12736812.37
+    },
+    {
+      "year_month": "2018-06",
+      "orders": 6167,
+      "customers": 6128,
+      "gmv": 865124.31,
+      "aov": 140.28,
+      "avg_delivery_days": 9.2,
+      "late_rate": 0.0136,
+      "avg_review": 4.28,
+      "cancel_rate": 0.0029,
+      "prev_gmv": 996517.68,
+      "gmv_mom": -0.1319,
+      "gmv_cumulative": 11841305.15
+    },
+    {
+      "year_month": "2018-05",
+      "orders": 6873,
+      "customers": 6814,
+      "gmv": 996517.68,
+      "aov": 144.99,
+      "avg_delivery_days": 11.3,
+      "late_rate": 0.0824,
+      "avg_review": 4.19,
+      "cancel_rate": 0.0035,
+      "prev_gmv": 996647.75,
+      "gmv_mom": -0.0001,
+      "gmv_cumulative": 10976180.84
+    },
+    {
+      "year_month": "2018-04",
+      "orders": 6939,
+      "customers": 6882,
+      "gmv": 996647.75,
+      "aov": 143.63,
+      "avg_delivery_days": 11.4,
+      "late_rate": 0.0531,
+      "avg_review": 4.16,
+      "cancel_rate": 0.0022,
+      "prev_gmv": 983213.44,
+      "gmv_mom": 0.0137,
+      "gmv_cumulative": 9979663.16
+    },
+    {
+      "year_month": "2018-03",
+      "orders": 7211,
+      "customers": 7115,
+      "gmv": 983213.44,
+      "aov": 136.35,
+      "avg_delivery_days": 16.2,
+      "late_rate": 0.2136,
+      "avg_review": 3.76,
+      "cancel_rate": 0.0036,
+      "prev_gmv": 844178.71,
+      "gmv_mom": 0.1647,
+      "gmv_cumulative": 8983015.41
+    }
+  ]
+}

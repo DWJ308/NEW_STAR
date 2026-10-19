@@ -1,0 +1,41 @@
+project:
+  name: NEW_STAR
+  title: Olist 电商数据仓库与分析平台
+  run_timezone: Asia/Shanghai
+
+paths:
+  raw: data/raw
+  parquet: data/parquet
+  warehouse: data/warehouse/star.duckdb
+  reports: reports
+  sql: sql
+
+source:
+  provider: GitHub
+  repo: https://github.com/Ajandaghian/olist-ecommerce-etl-pipeline
+  ref: main
+  base_url: https://raw.githubusercontent.com/Ajandaghian/olist-ecommerce-etl-pipeline/main/data/raw
+  license: CC BY-NC-SA 4.0 (原始数据来自 Olist / Kaggle)
+  files:
+    olist_orders_dataset.csv: orders
+    olist_order_items_dataset.csv: order_items
+    olist_order_payments_dataset.csv: order_payments
+    olist_order_reviews_dataset.csv: order_reviews
+    olist_customers_dataset.csv: customers
+    olist_products_dataset.csv: products
+    olist_sellers_dataset.csv: sellers
+    product_category_name_translation.csv: category_translation
+
+quality:
+  # 行数下限：防止上游文件被截断后静默通过
+  min_row_counts:
+    ods.orders: 99000
+    ods.order_items: 112000
+    ods.customers: 99000
+    ods.products: 32000
+  # 关键业务规则容差
+  thresholds:
+    max_late_rate: 0.15
+    max_null_delivered_date: 0.03
+    min_review_coverage: 0.95
+    max_payment_amount_diff: 0.01
